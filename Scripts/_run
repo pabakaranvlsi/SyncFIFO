@@ -1,1 +1,7 @@
+#!/bin/bash
+
+# Synopsys VCS compilation script for Synchronous FIFO. 
+
+vcs -full64 -sverilog -debug_all -f ./source.list \
+    +lint=all
 
